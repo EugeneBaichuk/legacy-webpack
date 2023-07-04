@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cats component renders the header correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="layout container"
+  >
+    <h1
+      class="mb-4 mt-4"
+    >
+      For this challenge, write the logic to accomplish the following:
+    </h1>
+    <ul
+      class="list-group"
+    >
+      <li
+        class="list-group-item"
+      >
+        Fetch a random image from this api: 
+        <a
+          href="https://dog.ceo/dog-api/"
+        >
+          here
+        </a>
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Save this image URL to the state of the DogIndex component
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Render the image to the screen
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Have a button that fetches a new image
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Make sure to include some good practice error handling
+      </li>
+    </ul>
+    <hr
+      class="my-4"
+    />
+    <div
+      class="content"
+    >
+      <div
+        class="container"
+      >
+        <section
+          class="section"
+        >
+          <div
+            class="d-flex justify-content-center mb-4"
+          >
+            <button
+              class="btn btn-secondary"
+              type="button"
+            >
+              Dog eat Dog!
+            </button>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center border dog-container"
+          >
+            <div
+              class="spinner-border"
+              role="status"
+            >
+              <span
+                class="visually-hidden"
+              >
+                Loading...
+              </span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

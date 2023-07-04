@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cats component renders the header correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="layout container"
+  >
+    <h1
+      class="mb-4 mt-4"
+    >
+      In this challenge your goal is to use the existing code to create the following:
+    </h1>
+    <ul
+      class="list-group"
+    >
+      <li
+        class="list-group-item"
+      >
+        ability to accept a search term from a user
+      </li>
+      <li
+        class="list-group-item"
+      >
+        ability to filter the array in the state by that term
+      </li>
+      <li
+        class="list-group-item"
+      >
+        ability to display only the terms that match the search, or all if no search term is provided
+      </li>
+    </ul>
+    <hr
+      class="my-4"
+    />
+    <input
+      class="mt-3 form-control"
+      placeholder="Search Here"
+      type="text"
+      value=""
+    />
+    <h3
+      class="m-3"
+    >
+      Results: 
+    </h3>
+    <ul
+      class="mt-3 mb-3 search-scroll border list-group"
+    >
+      <li
+        class="list-group-item"
+      >
+        pen
+      </li>
+      <li
+        class="list-group-item"
+      >
+        marker
+      </li>
+      <li
+        class="list-group-item"
+      >
+        eraser
+      </li>
+      <li
+        class="list-group-item"
+      >
+        notebook
+      </li>
+      <li
+        class="list-group-item"
+      >
+        pencil
+      </li>
+      <li
+        class="list-group-item"
+      >
+        scissors
+      </li>
+      <li
+        class="list-group-item"
+      >
+        highlighter
+      </li>
+      <li
+        class="list-group-item"
+      >
+        stapler
+      </li>
+      <li
+        class="list-group-item"
+      >
+        paper clip
+      </li>
+      <li
+        class="list-group-item"
+      >
+        binder
+      </li>
+      <li
+        class="list-group-item"
+      >
+        hole punch
+      </li>
+      <li
+        class="list-group-item"
+      >
+        laminator
+      </li>
+      <li
+        class="list-group-item"
+      >
+        laminating sheets
+      </li>
+      <li
+        class="list-group-item"
+      >
+        protective sheets
+      </li>
+      <li
+        class="list-group-item"
+      >
+        index cards
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

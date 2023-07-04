@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cats component renders the header correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="layout container"
+  >
+    <h1
+      class="mb-4 mt-4"
+    >
+      In this challenge your goal is to create a to do list:
+    </h1>
+    <ul
+      class="list-group"
+    >
+      <li
+        class="list-group-item"
+      >
+        ability to accept a task from a user
+      </li>
+      <li
+        class="list-group-item"
+      >
+        ability to add this to the state
+      </li>
+      <li
+        class="list-group-item"
+      >
+        ability to display all of the tasks
+      </li>
+      <li
+        class="list-group-item"
+      >
+        ability to evaluated if a task was completed and update the state
+      </li>
+    </ul>
+    <hr
+      class="my-4"
+    />
+    <div
+      class="content"
+    >
+      <ul
+        class="list-group"
+      />
+      <hr />
+      <form
+        class="form"
+        id="addQuestForm"
+      >
+        <div
+          class="input-group"
+        >
+          <input
+            class="input form-control"
+            id="addInput"
+            placeholder="add to-do list item"
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-info disabled"
+            disabled=""
+            type="submit"
+          >
+            Add Quest
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

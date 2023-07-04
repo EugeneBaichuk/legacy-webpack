@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cats component renders the header correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="layout container"
+  >
+    <h1
+      class="mb-4 mt-4"
+    >
+      To complete this challenge, complete and fix the existing code to have it do the following:
+    </h1>
+    <ul
+      class="list-group"
+    >
+      <li
+        class="list-group-item"
+      >
+        Render the list of cat breeds to the screen
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Use props correctly
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Use .map() correctly
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Ensure there are no errors
+      </li>
+    </ul>
+    <hr
+      class="my-4"
+    />
+    <section>
+      <h1>
+        Raining Cats!
+      </h1>
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item"
+        >
+          persian
+        </li>
+        <li
+          class="list-group-item"
+        >
+          siamese
+        </li>
+        <li
+          class="list-group-item"
+        >
+          maine coon
+        </li>
+        <li
+          class="list-group-item"
+        >
+          ragdoll
+        </li>
+        <li
+          class="list-group-item"
+        >
+          scottish fold
+        </li>
+        <li
+          class="list-group-item"
+        >
+          sphynx
+        </li>
+        <li
+          class="list-group-item"
+        >
+          british shorthair
+        </li>
+        <li
+          class="list-group-item"
+        >
+          bengal
+        </li>
+        <li
+          class="list-group-item"
+        >
+          american shorthair
+        </li>
+      </ul>
+    </section>
+  </div>
+</DocumentFragment>
+`;
