@@ -4,8 +4,9 @@
   "description": "project description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --open",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -20,13 +21,19 @@
   },
   "homepage": "https://github.com/EugeneBaichuk/legacy-webpack#readme",
   "devDependencies": {
-    "@babel/core": "^7.22.5",
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.6",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "style-loader": "^3.3.3",
     "terser-webpack-plugin": "^5.3.9",
